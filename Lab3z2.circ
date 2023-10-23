@@ -71,17 +71,14 @@
       <a name="inputs" val="3"/>
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(460,240)" name="NOT Gate">
+    <comp lib="1" loc="(510,240)" name="NOT Gate">
       <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(550,300)" name="NAND Gate">
-      <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(620,250)" name="NAND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(650,170)" name="NAND Gate">
-      <a name="size" val="30"/>
+    <comp lib="1" loc="(650,170)" name="NOT Gate">
+      <a name="size" val="20"/>
     </comp>
     <comp lib="1" loc="(880,290)" name="NAND Gate">
       <a name="size" val="30"/>
@@ -94,46 +91,42 @@
       <a name="facing" val="east"/>
       <a name="number" val="3"/>
     </comp>
+    <comp lib="8" loc="(1090,225)" name="Text">
+      <a name="text" val="Y"/>
+    </comp>
     <comp lib="8" loc="(295,135)" name="Text">
       <a name="text" val="S"/>
     </comp>
-    <comp lib="8" loc="(297,231)" name="Text">
+    <comp lib="8" loc="(295,230)" name="Text">
       <a name="text" val="A"/>
     </comp>
-    <comp lib="8" loc="(298,247)" name="Text">
+    <comp lib="8" loc="(295,245)" name="Text">
       <a name="text" val="B"/>
     </comp>
-    <comp lib="8" loc="(300,262)" name="Text">
+    <comp lib="8" loc="(295,260)" name="Text">
       <a name="text" val="C"/>
     </comp>
-    <comp lib="8" loc="(986,355)" name="Text">
+    <comp lib="8" loc="(985,355)" name="Text">
       <a name="text" val="Y = A*!S +B*S"/>
     </comp>
-    <comp lib="8" loc="(992,397)" name="Text">
+    <comp lib="8" loc="(990,395)" name="Text">
       <a name="text" val="Y = !(!(A*S)*!(B*!S)"/>
     </comp>
     <wire from="(1060,260)" to="(1080,260)"/>
     <wire from="(350,230)" to="(390,230)"/>
     <wire from="(350,240)" to="(390,240)"/>
     <wire from="(350,250)" to="(390,250)"/>
-    <wire from="(430,240)" to="(440,240)"/>
-    <wire from="(460,240)" to="(480,240)"/>
-    <wire from="(480,240)" to="(480,290)"/>
-    <wire from="(480,240)" to="(540,240)"/>
-    <wire from="(480,290)" to="(480,310)"/>
-    <wire from="(480,290)" to="(510,290)"/>
-    <wire from="(480,310)" to="(510,310)"/>
+    <wire from="(430,240)" to="(480,240)"/>
+    <wire from="(480,240)" to="(480,300)"/>
+    <wire from="(480,240)" to="(490,240)"/>
+    <wire from="(480,300)" to="(840,300)"/>
+    <wire from="(510,240)" to="(540,240)"/>
     <wire from="(540,170)" to="(570,170)"/>
     <wire from="(540,240)" to="(540,260)"/>
     <wire from="(540,260)" to="(580,260)"/>
-    <wire from="(550,300)" to="(840,300)"/>
     <wire from="(570,170)" to="(570,240)"/>
-    <wire from="(570,170)" to="(600,170)"/>
+    <wire from="(570,170)" to="(630,170)"/>
     <wire from="(570,240)" to="(580,240)"/>
-    <wire from="(600,160)" to="(600,170)"/>
-    <wire from="(600,160)" to="(610,160)"/>
-    <wire from="(600,170)" to="(600,180)"/>
-    <wire from="(600,180)" to="(610,180)"/>
     <wire from="(620,250)" to="(1020,250)"/>
     <wire from="(650,170)" to="(810,170)"/>
     <wire from="(810,170)" to="(810,280)"/>
