@@ -94,10 +94,13 @@
     <comp lib="4" loc="(490,230)" name="J-K Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
+    <comp lib="4" loc="(650,210)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
     <comp lib="5" loc="(120,250)" name="Button">
       <a name="label" val="Z"/>
     </comp>
-    <comp lib="5" loc="(660,210)" name="LED">
+    <comp lib="5" loc="(740,220)" name="LED">
       <a name="label" val="Y"/>
     </comp>
     <wire from="(120,250)" to="(150,250)"/>
@@ -133,6 +136,7 @@
     <wire from="(450,240)" to="(460,240)"/>
     <wire from="(450,280)" to="(450,390)"/>
     <wire from="(450,280)" to="(480,280)"/>
+    <wire from="(450,390)" to="(640,390)"/>
     <wire from="(520,190)" to="(520,220)"/>
     <wire from="(520,220)" to="(570,220)"/>
     <wire from="(540,240)" to="(570,240)"/>
@@ -140,7 +144,8 @@
     <wire from="(550,280)" to="(550,320)"/>
     <wire from="(570,180)" to="(570,210)"/>
     <wire from="(570,230)" to="(570,240)"/>
-    <wire from="(630,220)" to="(660,220)"/>
-    <wire from="(660,210)" to="(660,220)"/>
+    <wire from="(630,220)" to="(640,220)"/>
+    <wire from="(640,260)" to="(640,390)"/>
+    <wire from="(700,220)" to="(740,220)"/>
   </circuit>
 </project>
