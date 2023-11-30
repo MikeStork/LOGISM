@@ -162,49 +162,49 @@
       <a name="facing" val="north"/>
       <a name="label" val="RST"/>
     </comp>
-    <comp lib="8" loc="(387,419)" name="Text">
+    <comp lib="8" loc="(385,365)" name="Text">
+      <a name="text" val="Z"/>
+    </comp>
+    <comp lib="8" loc="(385,415)" name="Text">
       <a name="text" val="Q1"/>
     </comp>
-    <comp lib="8" loc="(388,369)" name="Text">
-      <a name="text" val="Z"/>
-    </comp>
-    <comp lib="8" loc="(423,291)" name="Text">
+    <comp lib="8" loc="(420,290)" name="Text">
       <a name="text" val="Q0"/>
     </comp>
-    <comp lib="8" loc="(431,321)" name="Text">
+    <comp lib="8" loc="(430,320)" name="Text">
       <a name="text" val="Z'"/>
     </comp>
-    <comp lib="8" loc="(472,354)" name="Text">
+    <comp lib="8" loc="(470,350)" name="Text">
       <a name="text" val="Z'Q2'Q1'"/>
     </comp>
-    <comp lib="8" loc="(472,377)" name="Text">
+    <comp lib="8" loc="(470,375)" name="Text">
       <a name="text" val="ZQ1"/>
     </comp>
-    <comp lib="8" loc="(598,369)" name="Text">
+    <comp lib="8" loc="(595,365)" name="Text">
       <a name="text" val="Q0'"/>
     </comp>
-    <comp lib="8" loc="(617,398)" name="Text">
+    <comp lib="8" loc="(615,395)" name="Text">
       <a name="text" val="Q2'"/>
     </comp>
-    <comp lib="8" loc="(621,350)" name="Text">
+    <comp lib="8" loc="(620,350)" name="Text">
       <a name="text" val="Z"/>
     </comp>
-    <comp lib="8" loc="(683,348)" name="Text">
+    <comp lib="8" loc="(680,345)" name="Text">
       <a name="text" val="Z'Q0"/>
     </comp>
-    <comp lib="8" loc="(684,371)" name="Text">
+    <comp lib="8" loc="(680,370)" name="Text">
       <a name="text" val="ZQ0'Q2'"/>
     </comp>
     <comp lib="8" loc="(805,335)" name="Text">
       <a name="text" val="Z"/>
     </comp>
-    <comp lib="8" loc="(807,372)" name="Text">
+    <comp lib="8" loc="(805,370)" name="Text">
       <a name="text" val="Q1"/>
     </comp>
-    <comp lib="8" loc="(819,299)" name="Text">
+    <comp lib="8" loc="(815,295)" name="Text">
       <a name="text" val="Q0"/>
     </comp>
-    <comp lib="8" loc="(819,319)" name="Text">
+    <comp lib="8" loc="(815,315)" name="Text">
       <a name="text" val="Q1"/>
     </comp>
     <wire from="(1010,400)" to="(1010,470)"/>
